@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Galeria de Imagens</h1>
+    <label for="urlImagem1" onmouseover="ganhouFocoInput1('urlImagem1')">
+        <input type="text" name="nome" 
+        id="urlImagem1" 
+        placeholder="Digite uma URL de imagem"
+        onblur="perdeuFocoInput1('urlImagem1')"
+        />
+    </label>
+
+    <label for="urlImagem2" onmouseover="ganhouFocoInput1('urlImagem2')">
+        <input type="text" name="nome" 
+        id="urlImagem2" 
+        placeholder="Digite uma URL de imagem"
+        onblur="perdeuFocoInput1('urlImagem2')"
+        />
+    </label>
+
+    <label for="urlImagem3" onmouseover="ganhouFocoInput1('urlImagem3')">
+        <input type="text" name="nome" 
+        id="urlImagem3" 
+        placeholder="Digite uma URL de imagem"
+        onblur="perdeuFocoInput1('urlImagem3')"
+        />
+    </label>
+    
+<!--
+    <input type="text" name="nome" 
+    id="urlImagem2" 
+    placeholder="Digite uma URL de imagem"/>
+
+    <input type="text" name="nome" 
+    id="urlImagem3" 
+    placeholder="Digite uma URL de imagem"/>
+-->
+    <button onclick="clickEnviar()">Enviar</button>
+    <hr>
+    <br>
+    <div id="galeria">
+
+    </div>
+
+    <!--
+    <img src="https://unsplash.com/photos/wFway3FP680" alt="">
+    <img src="https://unsplash.com/photos/wFway3FP680" alt="">
+    <img src="https://unsplash.com/photos/wFway3FP680" alt="">
+    -->
+    <script src="./script.js"></script>
+</body>
+</html>
