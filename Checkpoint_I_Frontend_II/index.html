@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="registro.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Karla:wght@200;300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Meu pet</title>
+  </head>
+  <body>
+    <header>
+      <div class="desconto">
+        <p>Adicione seu animal favorito completando as informações</p>
+      </div>
+      <div class="title">
+        <div class="logo">
+          <img src="./img/digital.png" alt="" width="50" height="50"/>
+        </div>
+        <div>
+            <h1>PetRegister</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="form-container">
+        <div class="form-btn">
+          <span>Cadastro Pet</span>
+        </div>
+        <form action="POST">
+          <input type="text" placeholder="Nome" />
+          <input type="text" placeholder="Espécie" />
+          <input type="text" placeholder="Raça" />
+          <input type="text" placeholder="Sexo" />
+          <input type="text" placeholder="Responsável" />
+          <input type="url" id="urlImagem" placeholder="Url da imagem"/>
+          <div class="botoes"> 
+            <button type="reset" class="btn" id="limpar">Limpar</button>
+            <button type="submit" class="btn" >Enviar</button>
+          </div>
+        </form>
+    </main>
+    <footer class="footer">
+      <p>Todos os direitos reservados a FRONT END II</p>
+    </footer>
+  </body>
+</html>
